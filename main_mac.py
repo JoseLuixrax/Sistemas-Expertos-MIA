@@ -4,7 +4,9 @@ from unidecode import unidecode
 from gtts import gTTS
 import os
 
+# Cambiar Rutas a las de su ordenador antes de ejecutar
 RUTA_AUDIO = "/Users/rosamorenolopez/Documents/MIA/sistemas_expertos/"
+RUTA_JSON = 'MIA/sistemas_expertos/Sistemas-Expertos-MIA/carreras2.json'
 
 class Carrera:
     def __init__(self, nombre, requisitos):
@@ -56,7 +58,7 @@ def main():
     skills = obtener_habilidades_por_voz()
     print(skills)
 
-    carreras = cargar_carreras_desde_json('MIA/sistemas_expertos/Sistemas-Expertos-MIA/carreras2.json')
+    carreras = cargar_carreras_desde_json(RUTA_JSON)
     carreras_recomendadas = recomendar_carrera(skills, carreras)
 
     if carreras_recomendadas:
