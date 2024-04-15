@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Desarrollador de software",
+        "requisitos": [
+            "programación",
+            "algoritmos"
+        ]
+    },
+    {
+        "nombre": "Analista de datos",
+        "requisitos": [
+            "análisis estadístico",
+            "bases de datos"
+        ]
+    },
+    {
+        "nombre": "Diseñador gráfico",
+        "requisitos": [
+            "diseño visual",
+            "herramientas de diseño"
+        ]
+    },
+    {
+        "nombre": "Ingeniero civil",
+        "requisitos": [
+            "ingeniería civil",
+            "gestión de proyectos"
+        ]
+    },
+    {
+        "nombre": "Enfermero/a",
+        "requisitos": [
+            "enfermería",
+            "cuidado"
+        ]
+    },
+    {
+        "nombre": "Chef",
+        "requisitos": [
+            "cocina",
+            "creatividad"
+        ]
+    },
+    {
+        "nombre": "Psicólogo/a",
+        "requisitos": [
+            "psicología",
+            "comunicación"
+        ]
+    },
+    {
+        "nombre": "Abogado/a",
+        "requisitos": [
+            "derecho",
+            "legal"
+        ]
+    },
+    {
+        "nombre": "Arquitecto/a",
+        "requisitos": [
+            "arquitectura",
+            "diseño"
+        ]
+    },
+    {
+        "nombre": "Profesor/a",
+        "requisitos": [
+            "educación",
+            "enseñanza"
+        ]
+    }
+]

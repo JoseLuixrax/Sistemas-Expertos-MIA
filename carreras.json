@@ -1,0 +1,401 @@
+[
+    {
+        "nombre": "Desarrollador de software",
+        "requisitos": [
+            "Habilidades en programación",
+            "Conocimientos en algoritmos"
+        ]
+    },
+    {
+        "nombre": "Analista de datos",
+        "requisitos": [
+            "Habilidades en análisis estadístico",
+            "Experiencia en bases de datos"
+        ]
+    },
+    {
+        "nombre": "Diseñador gráfico",
+        "requisitos": [
+            "Habilidades en diseño visual",
+            "Conocimientos en herramientas de diseño"
+        ]
+    },
+    {
+        "nombre": "Ingeniero civil",
+        "requisitos": [
+            "Conocimientos en ingeniería civil",
+            "Habilidades de gestión de proyectos"
+        ]
+    },
+    {
+        "nombre": "Enfermero/a",
+        "requisitos": [
+            "Grado en enfermería",
+            "Experiencia en cuidado de pacientes"
+        ]
+    },
+    {
+        "nombre": "Chef",
+        "requisitos": [
+            "Experiencia en cocina",
+            "Creatividad culinaria"
+        ]
+    },
+    {
+        "nombre": "Psicólogo/a",
+        "requisitos": [
+            "Licenciatura en psicología",
+            "Habilidades de comunicación"
+        ]
+    },
+    {
+        "nombre": "Abogado/a",
+        "requisitos": [
+            "Licenciatura en derecho",
+            "Conocimientos legales"
+        ]
+    },
+    {
+        "nombre": "Arquitecto/a",
+        "requisitos": [
+            "Licenciatura en arquitectura",
+            "Habilidades de diseño"
+        ]
+    },
+    {
+        "nombre": "Profesor/a",
+        "requisitos": [
+            "Grado en educación",
+            "Habilidades de enseñanza"
+        ]
+    },
+    {
+        "nombre": "Economista",
+        "requisitos": [
+            "Licenciatura en economía",
+            "Análisis financiero"
+        ]
+    },
+    {
+        "nombre": "Ingeniero/a mecánico/a",
+        "requisitos": [
+            "Grado en ingeniería mecánica",
+            "Conocimientos en diseño de máquinas"
+        ]
+    },
+    {
+        "nombre": "Médico/a",
+        "requisitos": [
+            "Grado en medicina",
+            "Especialización en una rama médica"
+        ]
+    },
+    {
+        "nombre": "Biólogo/a",
+        "requisitos": [
+            "Licenciatura en biología",
+            "Conocimientos en biología molecular"
+        ]
+    },
+    {
+        "nombre": "Periodista",
+        "requisitos": [
+            "Grado en periodismo",
+            "Habilidades de redacción"
+        ]
+    },
+    {
+        "nombre": "Ingeniero/a eléctrico/a",
+        "requisitos": [
+            "Grado en ingeniería eléctrica",
+            "Conocimientos en sistemas eléctricos"
+        ]
+    },
+    {
+        "nombre": "Dentista",
+        "requisitos": [
+            "Grado en odontología",
+            "Experiencia en odontología general"
+        ]
+    },
+    {
+        "nombre": "Administrador/a de empresas",
+        "requisitos": [
+            "Grado en administración de empresas",
+            "Habilidades de gestión"
+        ]
+    },
+    {
+        "nombre": "Astrónomo/a",
+        "requisitos": [
+            "Licenciatura en astronomía",
+            "Conocimientos en astrofísica"
+        ]
+    },
+    {
+        "nombre": "Policía",
+        "requisitos": [
+            "Formación en academia de policía",
+            "Habilidades de investigación"
+        ]
+    },
+    {
+        "nombre": "Traductor/a",
+        "requisitos": [
+            "Fluidez en dos o más idiomas",
+            "Habilidades de traducción"
+        ]
+    },
+    {
+        "nombre": "Veterinario/a",
+        "requisitos": [
+            "Grado en medicina veterinaria",
+            "Experiencia en atención veterinaria"
+        ]
+    },
+    {
+        "nombre": "Actor/actriz",
+        "requisitos": [
+            "Experiencia en actuación",
+            "Habilidades de interpretación"
+        ]
+    },
+    {
+        "nombre": "Científico/a de datos",
+        "requisitos": [
+            "Conocimientos en ciencia de datos",
+            "Habilidades en análisis de datos"
+        ]
+    },
+    {
+        "nombre": "Analista financiero",
+        "requisitos": [
+            "Conocimientos en análisis financiero",
+            "Experiencia en inversiones"
+        ]
+    },
+    {
+        "nombre": "Conductor/a de autobús",
+        "requisitos": [
+            "Licencia de conducir válida",
+            "Experiencia en conducción segura"
+        ]
+    },
+    {
+        "nombre": "Fotógrafo/a",
+        "requisitos": [
+            "Habilidades en fotografía",
+            "Conocimientos en edición de imágenes"
+        ]
+    },
+    {
+        "nombre": "Consultor/a de negocios",
+        "requisitos": [
+            "Experiencia en consultoría",
+            "Habilidades de análisis empresarial"
+        ]
+    },
+    {
+        "nombre": "Cocinero/a",
+        "requisitos": [
+            "Experiencia en cocina",
+            "Creatividad culinaria"
+        ]
+    },
+    {
+        "nombre": "Fisioterapeuta",
+        "requisitos": [
+            "Grado en fisioterapia",
+            "Conocimientos en rehabilitación física"
+        ]
+    },
+    {
+        "nombre": "Investigador/a científico/a",
+        "requisitos": [
+            "Grado en ciencias",
+            "Experiencia en investigación"
+        ]
+    },
+    {
+        "nombre": "Analista de sistemas",
+        "requisitos": [
+            "Habilidades en análisis de sistemas",
+            "Experiencia en desarrollo de software"
+        ]
+    },
+    {
+        "nombre": "Dietista/nutricionista",
+        "requisitos": [
+            "Licenciatura en dietética",
+            "Conocimientos en nutrición"
+        ]
+    },
+    {
+        "nombre": "Electricista",
+        "requisitos": [
+            "Certificación en electricidad",
+            "Experiencia en instalaciones eléctricas"
+        ]
+    },
+    {
+        "nombre": "Artista plástico/a",
+        "requisitos": [
+            "Experiencia en arte visual",
+            "Habilidades en técnicas artísticas"
+        ]
+    },
+    {
+        "nombre": "Bombero/a",
+        "requisitos": [
+            "Formación en academia de bomberos",
+            "Habilidades en rescate y extinción de incendios"
+        ]
+    },
+    {
+        "nombre": "Consejero/a escolar",
+        "requisitos": [
+            "Licenciatura en orientación educativa",
+            "Habilidades de consejería"
+        ]
+    },
+    {
+        "nombre": "Ingeniero/a de software",
+        "requisitos": [
+            "Grado en ingeniería de software",
+            "Conocimientos en desarrollo de aplicaciones"
+        ]
+    },
+    {
+        "nombre": "Escritor/a",
+        "requisitos": [
+            "Habilidades de escritura",
+            "Creatividad literaria"
+        ]
+    },
+    {
+        "nombre": "Geólogo/a",
+        "requisitos": [
+            "Licenciatura en geología",
+            "Experiencia en estudio de la tierra"
+        ]
+    },
+    {
+        "nombre": "Ingeniero/a de sistemas",
+        "requisitos": [
+            "Grado en ingeniería de sistemas",
+            "Conocimientos en diseño de sistemas"
+        ]
+    },
+    {
+        "nombre": "Diseñador/a de interiores",
+        "requisitos": [
+            "Habilidades en diseño de interiores",
+            "Conocimientos en decoración"
+        ]
+    },
+    {
+        "nombre": "Operador/a de maquinaria pesada",
+        "requisitos": [
+            "Experiencia en operación de maquinaria pesada",
+            "Habilidades de manejo seguro"
+        ]
+    },
+    {
+        "nombre": "Psiquiatra",
+        "requisitos": [
+            "Grado en psiquiatría",
+            "Experiencia en diagnóstico y tratamiento de trastornos mentales"
+        ]
+    },
+    {
+        "nombre": "Entrenador/a personal",
+        "requisitos": [
+            "Certificación en entrenamiento personal",
+            "Conocimientos en acondicionamiento físico"
+        ]
+    },
+    {
+        "nombre": "Piloto/a",
+        "requisitos": [
+            "Licencia de piloto válida",
+            "Experiencia en vuelo"
+        ]
+    },
+    {
+        "nombre": "Investigador/a de mercado",
+        "requisitos": [
+            "Conocimientos en investigación de mercado",
+            "Habilidades de análisis de datos"
+        ]
+    },
+    {
+        "nombre": "Trabajador/a social",
+        "requisitos": [
+            "Grado en trabajo social",
+            "Habilidades de intervención social"
+        ]
+    },
+    {
+        "nombre": "Técnico/a de laboratorio",
+        "requisitos": [
+            "Formación en técnicas de laboratorio",
+            "Experiencia en análisis de muestras"
+        ]
+    },
+    {
+        "nombre": "Actor/actriz de doblaje",
+        "requisitos": [
+            "Habilidades de voz",
+            "Experiencia en doblaje de películas o series"
+        ]
+    },
+    {
+        "nombre": "Ingeniero/a químico/a",
+        "requisitos": [
+            "Grado en ingeniería química",
+            "Conocimientos en procesos químicos"
+        ]
+    },
+    {
+        "nombre": "Entrenador/a deportivo/a",
+        "requisitos": [
+            "Certificación en entrenamiento deportivo",
+            "Experiencia en coaching"
+        ]
+    },
+    {
+        "nombre": "Artista musical",
+        "requisitos": [
+            "Habilidades en interpretación musical",
+            "Experiencia en composición"
+        ]
+    },
+    {
+        "nombre": "Recepcionista",
+        "requisitos": [
+            "Habilidades de comunicación",
+            "Experiencia en atención al cliente"
+        ]
+    },
+    {
+        "nombre": "Consultor/a de recursos humanos",
+        "requisitos": [
+            "Experiencia en gestión de recursos humanos",
+            "Habilidades de reclutamiento"
+        ]
+    },
+    {
+        "nombre": "Biólogo/a marino/a",
+        "requisitos": [
+            "Licenciatura en biología marina",
+            "Experiencia en investigación marina"
+        ]
+    },
+    {
+        "nombre": "Gerente de proyectos",
+        "requisitos": [
+            "Habilidades de gestión de proyectos",
+            "Experiencia en liderazgo"
+        ]
+    }
+]
