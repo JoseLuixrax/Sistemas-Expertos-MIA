@@ -41,8 +41,8 @@ def filtrar_por_rango_salarial(rango_deseado, carreras):
 def obtener_habilidades_por_voz():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Por favor, di tus habilidades:")
         decir("Por favor, di tus habilidades:")
+        print("Por favor, di tus habilidades:")
         audio = recognizer.listen(source)
 
     try:
@@ -80,8 +80,8 @@ def decir(texto):
     os.system(f"afplay {RUTA_AUDIO}voz.mp3")
 
 def main():
-    print("¡Bienvenido al Sistema Experto de Orientación Laboral!")
     decir("¡Bienvenido al Sistema Experto de Orientación Laboral!")
+    print("¡Bienvenido al Sistema Experto de Orientación Laboral!")
     skills = obtener_habilidades_por_voz()
     print(f"Tus habilidades son: {skills}")
 
@@ -93,15 +93,17 @@ def main():
     if carreras_recomendadas:
         
         carreras_recomendadas = filtrar_por_rango_salarial(expectativa_salarial,carreras_recomendadas)
-        print(carreras_recomendadas)
         if len(carreras_recomendadas) == 0:
             decir("Lo siento, no encontramos ninguna carrera que coincida con tu expectativa salarial.")
+            print("Lo siento, no encontramos ninguna carrera que coincida con tu expectativa salarial.")
             return
         
         decir("Basado en tus habilidades y tus expectativas salariales, las siguientes carreras podrían ser adecuadas para ti:")
+        print("Basado en tus habilidades y tus expectativas salariales, las siguientes carreras podrían ser adecuadas para ti:")
         
         for carrera in carreras_recomendadas:
             decir(f"La carrera: {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}")
+            print(f"La carrera: {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}")
             
     else:
         decir("Lo siento, no encontramos ninguna carrera que coincida con tus habilidades y expectativa salarial.")
