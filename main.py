@@ -3,8 +3,8 @@ import speech_recognition as sr
 import pyttsx3
 from unidecode import unidecode
 
-# Cambiar Rutas a las de su ordenador antes de ejecutar
-RUTA_JSON = r"C:\Users\Jose Luixrax\Develop\CEIABD\MIA\Sistemas Expertos\Sistemas-Expertos-MIA\carreras2.json"
+# Cambiar rutas a las de su ordenador antes de ejecutar
+RUTA_JSON = r"C:\Users\Jose Luixrax\Develop\CEIABD\MIA\Sistemas Expertos\Sistemas-Expertos-MIA\carreras.json"
 
 class Carrera:
     def __init__(self, nombre, requisitos, rango_salarial):
@@ -40,13 +40,14 @@ def obtener_habilidades_por_voz():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
         print("Por favor, di tus habilidades:")
+        decir("Por favor, di tus habilidades:")
         audio = recognizer.listen(source)
 
     try:
         habilidades = recognizer.recognize_google(audio, language='es-ES').split(' ')
         return habilidades
     except sr.UnknownValueError:
-        print("No se pudo entender la entrada de voz.")
+        print("No se pudo entender la entrada de voz de tus habilidades.")
         return []
     except sr.RequestError as e:
         print("Error en la solicitud de reconocimiento de voz: {0}".format(e))
@@ -60,7 +61,7 @@ def obtener_expectativa_salarial_por_voz():
 
     try:
         salario = recognizer.recognize_google(audio, language='es-ES')
-        salario = salario.replace('mil', '000').replace(' ', '').replace(',', ''). replace('euros', '').replace('€', '')
+        salario = salario.replace('mil', '000').replace(' ', '').replace(',', ''). replace('euros', '').replace('€', '').replace('.', '')
         return int(salario)
     except sr.UnknownValueError:
         print("No se pudo entender la entrada de voz.")
@@ -75,27 +76,31 @@ def decir(texto):
     engine.runAndWait()
 
 def main():
+    print("¡Bienvenido al Sistema Experto de Orientación Laboral!")
     decir("¡Bienvenido al Sistema Experto de Orientación Laboral!")
     skills = obtener_habilidades_por_voz()
-    print(skills)
+    print(f"Tus habilidades son: {skills}")
 
     carreras = cargar_carreras_desde_json(RUTA_JSON)
     carreras_recomendadas = recomendar_carrera(skills, carreras)
     expectativa_salarial = obtener_expectativa_salarial_por_voz()
+    print(f"Expectativa salarial:{expectativa_salarial}")
 
     if carreras_recomendadas:
-        carreras_recomendadas = filtrar_por_rango_salarial(expectativa_salarial,carreras_recomendadas)
         
+        carreras_recomendadas = filtrar_por_rango_salarial(expectativa_salarial,carreras_recomendadas)
+        print(carreras_recomendadas)
         if len(carreras_recomendadas) == 0:
             decir("Lo siento, no encontramos ninguna carrera que coincida con tu expectativa salarial.")
             return
         
-        decir("Basado en tus habilidades y tu rango salarial, las siguientes carreras podrían ser adecuadas para ti:")
+        decir("Basado en tus habilidades y tus expectativas salariales, las siguientes carreras podrían ser adecuadas para ti:")
+        
         for carrera in carreras_recomendadas:
-            decir(carrera)
-            print("-", carrera)
+            decir(f"La carrera: {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}")
+            
     else:
-        decir("Lo siento, no encontramos ninguna carrera que coincida con tus habilidades.")
+        decir("Lo siento, no encontramos ninguna carrera que coincida con tus habilidades y expectativa salarial.")
 
 if __name__ == "__main__":
     main()

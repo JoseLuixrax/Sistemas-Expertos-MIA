@@ -2,400 +2,607 @@
     {
         "nombre": "Desarrollador de software",
         "requisitos": [
-            "Habilidades en programación",
-            "Conocimientos en algoritmos"
-        ]
+            "programación",
+            "algoritmos"
+        ],
+        "rango_salarial": {
+            "minimo": 24000,
+            "maximo": 60000
+        }
     },
     {
         "nombre": "Analista de datos",
         "requisitos": [
-            "Habilidades en análisis estadístico",
-            "Experiencia en bases de datos"
-        ]
+            "análisis estadístico",
+            "bases de datos"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
         "nombre": "Diseñador gráfico",
         "requisitos": [
-            "Habilidades en diseño visual",
-            "Conocimientos en herramientas de diseño"
-        ]
+            "diseño visual",
+            "herramientas de diseño"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 50000
+        }
     },
     {
         "nombre": "Ingeniero civil",
         "requisitos": [
-            "Conocimientos en ingeniería civil",
-            "Habilidades de gestión de proyectos"
-        ]
+            "ingeniería civil",
+            "gestión de proyectos"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
         "nombre": "Enfermero/a",
         "requisitos": [
-            "Grado en enfermería",
-            "Experiencia en cuidado de pacientes"
-        ]
+            "enfermería",
+            "cuidado"
+        ],
+        "rango_salarial": {
+            "minimo": 18000,
+            "maximo": 45000
+        }
     },
     {
         "nombre": "Chef",
         "requisitos": [
-            "Experiencia en cocina",
-            "Creatividad culinaria"
-        ]
+            "cocina",
+            "creatividad"
+        ],
+        "rango_salarial": {
+            "minimo": 18000,
+            "maximo": 45000
+        }
     },
     {
         "nombre": "Psicólogo/a",
         "requisitos": [
-            "Licenciatura en psicología",
-            "Habilidades de comunicación"
-        ]
+            "psicología",
+            "comunicación"
+        ],
+        "rango_salarial": {
+            "minimo": 22000,
+            "maximo": 55000
+        }
     },
     {
         "nombre": "Abogado/a",
         "requisitos": [
-            "Licenciatura en derecho",
-            "Conocimientos legales"
-        ]
+            "derecho",
+            "legal"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
         "nombre": "Arquitecto/a",
         "requisitos": [
-            "Licenciatura en arquitectura",
-            "Habilidades de diseño"
-        ]
+            "arquitectura",
+            "diseño"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
         "nombre": "Profesor/a",
         "requisitos": [
-            "Grado en educación",
-            "Habilidades de enseñanza"
-        ]
+            "educación",
+            "enseñanza"
+        ],
+        "rango_salarial": {
+            "minimo": 18000,
+            "maximo": 45000
+        }
     },
     {
-        "nombre": "Economista",
+        "nombre": "Ingeniero de software",
         "requisitos": [
-            "Licenciatura en economía",
-            "Análisis financiero"
-        ]
-    },
-    {
-        "nombre": "Ingeniero/a mecánico/a",
-        "requisitos": [
-            "Grado en ingeniería mecánica",
-            "Conocimientos en diseño de máquinas"
-        ]
-    },
-    {
-        "nombre": "Médico/a",
-        "requisitos": [
-            "Grado en medicina",
-            "Especialización en una rama médica"
-        ]
-    },
-    {
-        "nombre": "Biólogo/a",
-        "requisitos": [
-            "Licenciatura en biología",
-            "Conocimientos en biología molecular"
-        ]
-    },
-    {
-        "nombre": "Periodista",
-        "requisitos": [
-            "Grado en periodismo",
-            "Habilidades de redacción"
-        ]
-    },
-    {
-        "nombre": "Ingeniero/a eléctrico/a",
-        "requisitos": [
-            "Grado en ingeniería eléctrica",
-            "Conocimientos en sistemas eléctricos"
-        ]
-    },
-    {
-        "nombre": "Dentista",
-        "requisitos": [
-            "Grado en odontología",
-            "Experiencia en odontología general"
-        ]
-    },
-    {
-        "nombre": "Administrador/a de empresas",
-        "requisitos": [
-            "Grado en administración de empresas",
-            "Habilidades de gestión"
-        ]
-    },
-    {
-        "nombre": "Astrónomo/a",
-        "requisitos": [
-            "Licenciatura en astronomía",
-            "Conocimientos en astrofísica"
-        ]
-    },
-    {
-        "nombre": "Policía",
-        "requisitos": [
-            "Formación en academia de policía",
-            "Habilidades de investigación"
-        ]
-    },
-    {
-        "nombre": "Traductor/a",
-        "requisitos": [
-            "Fluidez en dos o más idiomas",
-            "Habilidades de traducción"
-        ]
-    },
-    {
-        "nombre": "Veterinario/a",
-        "requisitos": [
-            "Grado en medicina veterinaria",
-            "Experiencia en atención veterinaria"
-        ]
-    },
-    {
-        "nombre": "Actor/actriz",
-        "requisitos": [
-            "Experiencia en actuación",
-            "Habilidades de interpretación"
-        ]
-    },
-    {
-        "nombre": "Científico/a de datos",
-        "requisitos": [
-            "Conocimientos en ciencia de datos",
-            "Habilidades en análisis de datos"
-        ]
+            "programación",
+            "desarrollo de software"
+        ],
+        "rango_salarial": {
+            "minimo": 24000,
+            "maximo": 60000
+        }
     },
     {
         "nombre": "Analista financiero",
         "requisitos": [
-            "Conocimientos en análisis financiero",
-            "Experiencia en inversiones"
-        ]
+            "finanzas",
+            "análisis económico"
+        ],
+        "rango_salarial": {
+            "minimo": 30000,
+            "maximo": 75000
+        }
     },
     {
-        "nombre": "Conductor/a de autobús",
+        "nombre": "Periodista",
         "requisitos": [
-            "Licencia de conducir válida",
-            "Experiencia en conducción segura"
-        ]
+            "periodismo",
+            "investigación"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 55000
+        }
     },
     {
-        "nombre": "Fotógrafo/a",
+        "nombre": "Médico/a",
         "requisitos": [
-            "Habilidades en fotografía",
-            "Conocimientos en edición de imágenes"
-        ]
+            "medicina",
+            "diagnóstico"
+        ],
+        "rango_salarial": {
+            "minimo": 35000,
+            "maximo": 90000
+        }
     },
     {
-        "nombre": "Consultor/a de negocios",
+        "nombre": "Contador/a",
         "requisitos": [
-            "Experiencia en consultoría",
-            "Habilidades de análisis empresarial"
-        ]
+            "contabilidad",
+            "auditoría"
+        ],
+        "rango_salarial": {
+            "minimo": 25000,
+            "maximo": 65000
+        }
     },
     {
-        "nombre": "Cocinero/a",
+        "nombre": "Desarrollador web",
         "requisitos": [
-            "Experiencia en cocina",
-            "Creatividad culinaria"
-        ]
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "rango_salarial": {
+            "minimo": 24000,
+            "maximo": 60000
+        }
     },
     {
-        "nombre": "Fisioterapeuta",
+        "nombre": "Ingeniero eléctrico",
         "requisitos": [
-            "Grado en fisioterapia",
-            "Conocimientos en rehabilitación física"
-        ]
+            "ingeniería eléctrica",
+            "sistemas de energía"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
-        "nombre": "Investigador/a científico/a",
+        "nombre": "Analista de mercado",
         "requisitos": [
-            "Grado en ciencias",
-            "Experiencia en investigación"
-        ]
+            "investigación de mercado",
+            "análisis de datos"
+        ],
+        "rango_salarial": {
+            "minimo": 25000,
+            "maximo": 65000
+        }
     },
     {
-        "nombre": "Analista de sistemas",
+        "nombre": "Administrador de sistemas",
         "requisitos": [
-            "Habilidades en análisis de sistemas",
-            "Experiencia en desarrollo de software"
-        ]
+            "sistemas informáticos",
+            "administración de redes"
+        ],
+        "rango_salarial": {
+            "minimo": 24000,
+            "maximo": 60000
+        }
     },
     {
-        "nombre": "Dietista/nutricionista",
+        "nombre": "Economista",
         "requisitos": [
-            "Licenciatura en dietética",
-            "Conocimientos en nutrición"
-        ]
-    },
-    {
-        "nombre": "Electricista",
-        "requisitos": [
-            "Certificación en electricidad",
-            "Experiencia en instalaciones eléctricas"
-        ]
-    },
-    {
-        "nombre": "Artista plástico/a",
-        "requisitos": [
-            "Experiencia en arte visual",
-            "Habilidades en técnicas artísticas"
-        ]
-    },
-    {
-        "nombre": "Bombero/a",
-        "requisitos": [
-            "Formación en academia de bomberos",
-            "Habilidades en rescate y extinción de incendios"
-        ]
-    },
-    {
-        "nombre": "Consejero/a escolar",
-        "requisitos": [
-            "Licenciatura en orientación educativa",
-            "Habilidades de consejería"
-        ]
-    },
-    {
-        "nombre": "Ingeniero/a de software",
-        "requisitos": [
-            "Grado en ingeniería de software",
-            "Conocimientos en desarrollo de aplicaciones"
-        ]
+            "economía",
+            "modelado financiero"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
         "nombre": "Escritor/a",
         "requisitos": [
-            "Habilidades de escritura",
-            "Creatividad literaria"
-        ]
+            "escritura creativa",
+            "edición"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 55000
+        }
+    },
+    {
+        "nombre": "Ingeniero mecánico",
+        "requisitos": [
+            "ingeniería mecánica",
+            "diseño de máquinas"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
+    },
+    {
+        "nombre": "Investigador/a científico/a",
+        "requisitos": [
+            "métodos de investigación",
+            "publicación científica"
+        ],
+        "rango_salarial": {
+            "minimo": 25000,
+            "maximo": 65000
+        }
+    },
+    {
+        "nombre": "Dibujante técnico",
+        "requisitos": [
+            "dibujo técnico",
+            "software de diseño asistido"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 50000
+        }
+    },
+    {
+        "nombre": "Recursos humanos",
+        "requisitos": [
+            "gestión de recursos humanos",
+            "reclutamiento"
+        ],
+        "rango_salarial": {
+            "minimo": 22000,
+            "maximo": 55000
+        }
+    },
+    {
+        "nombre": "Farmacéutico/a",
+        "requisitos": [
+            "farmacia",
+            "farmacología"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
+    },
+    {
+        "nombre": "Traductor/a",
+        "requisitos": [
+            "traducción",
+            "conocimiento de idiomas"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 55000
+        }
+    },
+    {
+        "nombre": "Fotógrafo/a",
+        "requisitos": [
+            "fotografía",
+            "edición de imágenes"
+        ],
+        "rango_salarial": {
+            "minimo": 18000,
+            "maximo": 45000
+        }
+    },
+    {
+        "nombre": "Analista de seguridad informática",
+        "requisitos": [
+            "seguridad informática",
+            "criptografía"
+        ],
+        "rango_salarial": {
+            "minimo": 30000,
+            "maximo": 75000
+        }
+    },
+    {
+        "nombre": "Ingeniero de sistemas",
+        "requisitos": [
+            "ingeniería de sistemas",
+            "integración de tecnologías"
+        ],
+        "rango_salarial": {
+            "minimo": 26000,
+            "maximo": 65000
+        }
+    },
+    {
+        "nombre": "Consultor/a de negocios",
+        "requisitos": [
+            "consultoría",
+            "gestión empresarial"
+        ],
+        "rango_salarial": {
+            "minimo": 25000,
+            "maximo": 65000
+        }
+    },
+    {
+        "nombre": "Biólogo/a",
+        "requisitos": [
+            "biología",
+            "investigación biológica"
+        ],
+        "rango_salarial": {
+            "minimo": 22000,
+            "maximo": 55000
+        }
+    },
+    {
+        "nombre": "Gestor/a cultural",
+        "requisitos": [
+            "gestión cultural",
+            "producción de eventos"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 50000
+        }
     },
     {
         "nombre": "Geólogo/a",
         "requisitos": [
-            "Licenciatura en geología",
-            "Experiencia en estudio de la tierra"
-        ]
+            "geología",
+            "exploración de recursos naturales"
+        ],
+        "rango_salarial": {
+            "minimo": 24000,
+            "maximo": 60000
+        }
     },
     {
-        "nombre": "Ingeniero/a de sistemas",
+        "nombre": "Community manager",
         "requisitos": [
-            "Grado en ingeniería de sistemas",
-            "Conocimientos en diseño de sistemas"
-        ]
+            "gestión de redes sociales",
+            "marketing digital"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 55000
+        }
     },
     {
-        "nombre": "Diseñador/a de interiores",
+        "nombre": "Ingeniero de telecomunicaciones",
         "requisitos": [
-            "Habilidades en diseño de interiores",
-            "Conocimientos en decoración"
-        ]
+            "telecomunicaciones",
+            "redes de comunicación"
+        ],
+        "rango_salarial": {
+            "minimo": 26000,
+            "maximo": 65000
+        }
     },
     {
-        "nombre": "Operador/a de maquinaria pesada",
+        "nombre": "Nutricionista",
         "requisitos": [
-            "Experiencia en operación de maquinaria pesada",
-            "Habilidades de manejo seguro"
-        ]
+            "nutrición",
+            "dietética"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 50000
+        }
     },
     {
-        "nombre": "Psiquiatra",
+        "nombre": "Diseñador de moda",
         "requisitos": [
-            "Grado en psiquiatría",
-            "Experiencia en diagnóstico y tratamiento de trastornos mentales"
-        ]
+            "diseño de moda",
+            "tendencias"
+        ],
+        "rango_salarial": {
+            "minimo": 18000,
+            "maximo": 45000
+        }
     },
     {
-        "nombre": "Entrenador/a personal",
+        "nombre": "Ingeniero aeroespacial",
         "requisitos": [
-            "Certificación en entrenamiento personal",
-            "Conocimientos en acondicionamiento físico"
-        ]
+            "ingeniería aeroespacial",
+            "aeronáutica"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
-        "nombre": "Piloto/a",
+        "nombre": "Abogado/a de empresa",
         "requisitos": [
-            "Licencia de piloto válida",
-            "Experiencia en vuelo"
-        ]
+            "derecho empresarial",
+            "asesoramiento legal"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
-        "nombre": "Investigador/a de mercado",
+        "nombre": "Artista visual",
         "requisitos": [
-            "Conocimientos en investigación de mercado",
-            "Habilidades de análisis de datos"
-        ]
+            "arte visual",
+            "expresión creativa"
+        ],
+        "rango_salarial": {
+            "minimo": 18000,
+            "maximo": 45000
+        }
     },
     {
-        "nombre": "Trabajador/a social",
+        "nombre": "Analista de sistemas",
         "requisitos": [
-            "Grado en trabajo social",
-            "Habilidades de intervención social"
-        ]
+            "análisis de sistemas",
+            "modelado de procesos"
+        ],
+        "rango_salarial": {
+            "minimo": 25000,
+            "maximo": 65000
+        }
     },
     {
         "nombre": "Técnico/a de laboratorio",
         "requisitos": [
-            "Formación en técnicas de laboratorio",
-            "Experiencia en análisis de muestras"
-        ]
+            "laboratorio",
+            "manejo de equipos"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 50000
+        }
     },
     {
-        "nombre": "Actor/actriz de doblaje",
+        "nombre": "Logístico/a",
         "requisitos": [
-            "Habilidades de voz",
-            "Experiencia en doblaje de películas o series"
-        ]
+            "logística",
+            "gestión de inventarios"
+        ],
+        "rango_salarial": {
+            "minimo": 22000,
+            "maximo": 55000
+        }
     },
     {
-        "nombre": "Ingeniero/a químico/a",
+        "nombre": "Dentista",
         "requisitos": [
-            "Grado en ingeniería química",
-            "Conocimientos en procesos químicos"
-        ]
+            "odontología",
+            "atención dental"
+        ],
+        "rango_salarial": {
+            "minimo": 40000,
+            "maximo": 90000
+        }
     },
     {
-        "nombre": "Entrenador/a deportivo/a",
+        "nombre": "Diseñador/a de interiores",
         "requisitos": [
-            "Certificación en entrenamiento deportivo",
-            "Experiencia en coaching"
-        ]
+            "diseño de interiores",
+            "decoración"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 50000
+        }
     },
     {
-        "nombre": "Artista musical",
+        "nombre": "Ingeniero de control de calidad",
         "requisitos": [
-            "Habilidades en interpretación musical",
-            "Experiencia en composición"
-        ]
+            "control de calidad",
+            "normativas"
+        ],
+        "rango_salarial": {
+            "minimo": 26000,
+            "maximo": 65000
+        }
     },
     {
-        "nombre": "Recepcionista",
+        "nombre": "Analista de riesgos",
         "requisitos": [
-            "Habilidades de comunicación",
-            "Experiencia en atención al cliente"
-        ]
+            "evaluación de riesgos",
+            "gestión de riesgos"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
     },
     {
-        "nombre": "Consultor/a de recursos humanos",
+        "nombre": "Terapeuta ocupacional",
         "requisitos": [
-            "Experiencia en gestión de recursos humanos",
-            "Habilidades de reclutamiento"
-        ]
+            "terapia ocupacional",
+            "rehabilitación"
+        ],
+        "rango_salarial": {
+            "minimo": 22000,
+            "maximo": 55000
+        }
     },
     {
-        "nombre": "Biólogo/a marino/a",
+        "nombre": "Especialista en marketing",
         "requisitos": [
-            "Licenciatura en biología marina",
-            "Experiencia en investigación marina"
-        ]
+            "marketing",
+            "estrategias de mercado"
+        ],
+        "rango_salarial": {
+            "minimo": 25000,
+            "maximo": 65000
+        }
     },
     {
-        "nombre": "Gerente de proyectos",
+        "nombre": "Ingeniero de medio ambiente",
         "requisitos": [
-            "Habilidades de gestión de proyectos",
-            "Experiencia en liderazgo"
-        ]
+            "ingeniería ambiental",
+            "sostenibilidad"
+        ],
+        "rango_salarial": {
+            "minimo": 24000,
+            "maximo": 60000
+        }
+    },
+    {
+        "nombre": "Analista de inteligencia de negocios",
+        "requisitos": [
+            "inteligencia empresarial",
+            "visualización de datos"
+        ],
+        "rango_salarial": {
+            "minimo": 28000,
+            "maximo": 70000
+        }
+    },
+    {
+        "nombre": "Psiquiatra",
+        "requisitos": [
+            "psiquiatría",
+            "tratamiento mental"
+        ],
+        "rango_salarial": {
+            "minimo": 35000,
+            "maximo": 90000
+        }
+    },
+    {
+        "nombre": "Piloto/a",
+        "requisitos": [
+            "aviación",
+            "pilotaje"
+        ],
+        "rango_salarial": {
+            "minimo": 40000,
+            "maximo": 120000
+        }
+    },
+    {
+        "nombre": "Editor/a",
+        "requisitos": [
+            "edición",
+            "corrección de textos"
+        ],
+        "rango_salarial": {
+            "minimo": 20000,
+            "maximo": 55000
+        }
     }
 ]
