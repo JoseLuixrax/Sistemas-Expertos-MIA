@@ -5,7 +5,7 @@ from gtts import gTTS
 import os
 
 # Cambiar rutas a las de su ordenador antes de ejecutar
-RUTA_AUDIO = "/Users/rosamorenolopez/Documents/MIA/sistemas_expertos/"
+RUTA_AUDIO = "/Users/rosamorenolopez/Documents/MIA/sistemas_expertos/Sistemas-Expertos-MIA"
 RUTA_JSON = 'MIA/sistemas_expertos/Sistemas-Expertos-MIA/carreras.json'
 
 class Carrera:
