@@ -73,6 +73,11 @@ def obtener_expectativa_salarial_por_voz():
         print("Error en la solicitud de reconocimiento de voz: {0}".format(e))
         return 0
 
+def obtener_expectativa_salarial():
+    decir("Por favor, introduce tu expectativa salarial:")  
+    expectativa_salarial = input(f"Por favor, introduce tu expectativa salarial: ")
+    expectativa_salarial = expectativa_salarial.replace('mil', '000').replace(' ', '').replace(',', ''). replace('euros', '').replace('€', '').replace('.', '')
+    return int(expectativa_salarial)
 
 def decir(texto):
     tts = gTTS(text=texto, lang='es')
@@ -87,8 +92,9 @@ def main():
 
     carreras = cargar_carreras_desde_json(RUTA_JSON)
     carreras_recomendadas = recomendar_carrera(skills, carreras)
-    expectativa_salarial = obtener_expectativa_salarial_por_voz()
-    print(f"Expectativa salarial:{expectativa_salarial}")
+    #expectativa_salarial = obtener_expectativa_salarial_por_voz()
+    expectativa_salarial = obtener_expectativa_salarial()
+    #print(f"Expectativa salarial:{expectativa_salarial}")
 
     if carreras_recomendadas:
         
@@ -102,8 +108,8 @@ def main():
         print("Basado en tus habilidades y tus expectativas salariales, las siguientes carreras podrían ser adecuadas para ti:")
         
         for carrera in carreras_recomendadas:
-            decir(f"La carrera: {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}")
-            print(f"La carrera: {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}")
+            decir(f"La carrera {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}.")
+            print(f"La carrera {carrera[0]} con un salario mínimo de {carrera[1]['minimo']} y máximo de {carrera[1]['maximo']}.")
             
     else:
         decir("Lo siento, no encontramos ninguna carrera que coincida con tus habilidades y expectativa salarial.")
